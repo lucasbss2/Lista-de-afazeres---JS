@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <title>To-Do List</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="homeContainer">
+            <div id="taskLogo">To-Do List</div>
+            <div id="inputContainer">
+                <div class="deleteAll">
+                    <button><i class="bx bxs-trash-alt"></i></button>
+                </div>
+                <input type = "text" id = "input" placeholder = "Digite uma tarefa." autofocus>
+                <button type="button" id = "inputButton" >Inserir</button>
+            </div>
+            <div id="taskList">
+                <ul></ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

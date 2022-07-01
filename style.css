@@ -1,0 +1,78 @@
+body {
+    background-color:#5882FA;
+}
+
+#homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#taskLogo {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#inputContainer {
+    width: 90%;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.deleteAll {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#input {
+    width: 95%;
+    height: 60px;
+    box-shadow: 0 1px 1px 0;
+    border: none;
+    border-radius: 10px;
+    flex-grow: 2px;
+}
+
+#inputButton {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #819FF7;
+    margin-left: -60px;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px black;
+    transition: all 0.2s ease-in-out;
+    height: 40px;
+}
+
+#inputButton:hover {
+    background-color: #5882FA;
+    cursor: pointer;
+}
+
+#inputButton:active {
+    transform: scale(0.9);
+    box-shadow: 1px 2px 2px 1px black;
+}
+
+#taskList {
+    font-size: 25px;
+    display: flex;
+    width: 95%;
+    height: 600px;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
